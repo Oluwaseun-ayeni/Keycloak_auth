@@ -41,7 +41,7 @@ func main() {
 		ClientID:     KeycloakClientID,
 		ClientSecret: KeycloakClientSecret,
 		Username:     "test-wallet",
-		Password:     "",
+		Password:     "Password",
 	}
 	issueTime := time.Now()
 	loginRes, err := login(client, payload)
